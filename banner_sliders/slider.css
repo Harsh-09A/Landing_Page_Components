@@ -1,0 +1,18 @@
+/* Slider */
+.carousel {
+  overflow: hidden !important;
+  max-height: calc(100vh - 80px);
+}
+
+.carousel-indicators .active {
+  background-color: var(--colorSecondary) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-item .banner1 {
+    content: url("../img/banners/mobile_banner1.jpg");
+  }
+  .carousel-item .banner2 {
+    content: url("../img/banners/mobile_banner2.jpg");
+  }
+}
